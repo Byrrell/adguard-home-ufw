@@ -1,14 +1,14 @@
-[AdGuard Home Full]
+[adguard home full]
 title=AdGuard Home Full
 description=AdGuard Home Full contains service ports that would allow traffic for regular DNS, DHCP, DNS-over-HTTPS, DNS-over-TLS, DNS-over-QUIC and DNSCrypt server.
 ports=53|67/udp|68/udp|80/tcp|443|853|3000|3001|5443|6060/tcp
 
-[AdGuard Home DHCP-Only]
+[adguard home dhcp]
 title=AdGuard Home DHCP-Only
 description=AdGuard Home DHCP-Only contains service ports that would allow traffic for DHCP server only. This profile does not allow public access to AdGuard Home management interface, regular DNS, DNS-over-HTTPS, DNS-over-TLS, DNS-over-QUIC or DNSCrypt server. 
 ports=67/udp|68
 
-[AdGuard Home DNS-Only]
+[adguard home dns]
 title=AdGuard Home DNS-Only
 description=AdGuard Home DNS-Only contains service ports that would allow traffic for regular DNS, DNS-over-HTTPS, DNS-over-TLS, DNS-over-QUIC and DNSCrypt server. This profile does not allow public access to AdGuard Home management interface or DHCP server. 
 ports=53|443|853|5443
